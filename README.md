@@ -1,4 +1,4 @@
-# GAIA: A Global, Multi-modal, Multi-scale Vision-Language Dataset for Remote Sensing
+# [GAIA: A Global, Multi-modal, Multi-scale Vision-Language Dataset for Remote Sensing](https://arxiv.org/abs/2502.09598)
 
 **GAIA** is a large-scale vision-language dataset designed to bridge the gap between remote sensing (RS) imagery and natural language understanding. It provides **205,150 image-text pairs** (41,030 images with 5 synthetic captions each) for advancing RS-specific vision-language models (VLMs). The dataset spans over **25 years** of Earth observations (1998-2024), covering diverse geographic regions, satellite missions, and RS modalities.
 
