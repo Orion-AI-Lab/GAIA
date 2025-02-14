@@ -52,6 +52,9 @@ img2dataset --url_list "./{split}_data.json" \
 ## Pre-trained weights
 - Coming soon
 
+## Annotation framework
+- Coming soon
+
 ## Contributions
 We welcome contributions to improve and expand the GAIA dataset. If you have additional RS image-text pair sources or suggestions for enhancing the dataset, please feel free to open an issue.
 
