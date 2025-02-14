@@ -38,8 +38,8 @@ img2dataset --url_list "./{split}_data.json" \
             --output_format "webdataset" \
             --save_additional_columns "['id','captions']" \
             --output_folder "./{split}/" \
-            --processes_count 4 \ # Do NOT increase 
-            --thread_count 4 \ # Do NOT increase
+            --processes_count 4 \
+            --thread_count 4 \
             --retries=5 \
             --image_size 512 \
             --encode_format "png" \
