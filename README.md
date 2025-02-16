@@ -27,27 +27,29 @@ Each entry contains a set of web-scraped (i.e. image_src, image_alt, credits) an
 ## Download Instructions ⬇️
 To download and reconstruct the GAIA dataset, follow these steps:
 - Download the GAIA dataset JSON files from [HuggingFace](https://huggingface.co/datasets/azavras/GAIA).
+  ```bash
+  huggingface-cli download azavras/GAIA --repo-type dataset --local-dir GAIA
+  ```
 - Install and use the [img2dataset](https://github.com/rom1504/img2dataset) tool to reconstruct the GAIA dataset.
-
-For instance, we used the following:
-```bash
-img2dataset --url_list "./{split}_data.json" \
-            --input_format "json" \
-            --url_col "image_src" \
-            --caption_col "image_alt" \
-            --output_format "webdataset" \
-            --save_additional_columns "['id','captions']" \
-            --output_folder "./{split}/" \
-            --processes_count 4 \
-            --thread_count 4 \
-            --retries=5 \
-            --image_size 512 \
-            --encode_format "png" \
-            --encode_quality 9 \
-            --resize_mode "keep_ratio" \
-            --number_sample_per_shard 512 \
-            --disallowed_header_directives '[]'
-```
+  ```bash
+  img2dataset --url_list "./{split}_data.json" \
+              --input_format "json" \
+              --url_col "image_src" \
+              --caption_col "image_alt" \
+              --output_format "webdataset" \
+              --save_additional_columns "['id','captions']" \
+              --output_folder "./{split}/" \
+              --processes_count 4 \
+              --thread_count 4 \
+              --retries=5 \
+              --image_size 512 \
+              --encode_format "png" \
+              --encode_quality 9 \
+              --resize_mode "keep_ratio" \
+              --number_sample_per_shard 512 \
+              --disallowed_header_directives '[]'
+  ```
+  ❗ Significantly increasing the **processes_count** and **thread_count** may lead to server overload, potentially causing interruptions and failures in downloads.
 
 ## Pre-trained weights
 - Coming soon
