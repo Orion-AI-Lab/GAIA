@@ -1,4 +1,4 @@
-# GAIA: A Global, Multi-modal, Multi-scale Vision-Language Dataset for Remote Sensing Image Analysis
+# 🌍 GAIA: A Global, Multi-modal, Multi-scale Vision-Language Dataset for Remote Sensing Image Analysis
 
 ![GAIA Spatial Coverage](figures/spatial_coverage.png?raw=true)
 
@@ -40,8 +40,12 @@ Each entry contains a set of web-scraped (i.e. image_src, image_alt, credits) an
   "modalities"
 ]
 ```
+## Thematic Coverage 🔍
+The GAIA dataset encompasses a broad spectrum of Earth system phenomena, categorized within the framework of the five major Earth spheres: Atmosphere, Hydrosphere, Geosphere, Biosphere, and Cryosphere. This comprehensive thematic coverage demonstrates GAIA’s potential to facilitate research across a multitude of Earth science disciplines, offering a holistic view of our planet’s interconnected systems.
 
-![GAIA Thematic Coverage](figures/categories.png?raw=true)
+<p align="center">
+  <img src="figures/categories.png" width="50%" height="50%">
+</p>
 
 ## Download Instructions ⬇️
 To download and reconstruct the GAIA dataset, follow these steps:
