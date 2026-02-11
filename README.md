@@ -1,21 +1,25 @@
-# 🌍 GAIA: A Global, Multi-modal, Multi-scale Vision-Language Dataset for Remote Sensing Image Analysis
+# 🌍 GAIA: A global, multimodal, multiscale vision–language dataset for remote sensing image analysis
 
 ![GAIA Spatial Coverage](figures/spatial_coverage.png?raw=true)
 
-This repository contains the pre-trained model weights, associated code, and complete dataset of the paper [GAIA: A Global, Multi-modal, Multi-scale Vision-Language Dataset for Remote Sensing Image Analysis](https://arxiv.org/abs/2502.09598).
+This repository contains the pre-trained model weights, associated code, and complete dataset of the paper [GAIA: A global, multimodal, multiscale vision–language dataset for remote sensing image analysis](https://ieeexplore.ieee.org/abstract/document/11364541).
 
 **GAIA** is a large-scale vision-language dataset designed to bridge the gap between remote sensing (RS) imagery and natural language understanding. It provides **205,150 image-text pairs** (41,030 images with 5 synthetic captions each) for advancing RS-specific vision-language models (VLMs). The dataset spans over **25 years** of Earth observations (1998-2024), covering diverse geographic regions, satellite missions, and RS modalities.
 
 If you use this work, please cite our paper:
 
-> Zavras, A., Michail, D., Zhu, X. X., Demir, B., & Papoutsis, I. (2025). [GAIA: A Global, Multi-modal, Multi-scale Vision-Language Dataset for Remote Sensing Image Analysis](https://arxiv.org/abs/2502.09598). arXiv preprint arXiv:2502.09598.
+> A. Zavras, D. Michail, X. X. Zhu, B. Demir and I. Papoutsis, "GAIA: A global, multimodal, multiscale vision–language dataset for remote sensing image analysis," in IEEE Geoscience and Remote Sensing Magazine, doi: 10.1109/MGRS.2025.3650613.
 
 ```bibtex
-@article{zavras2025gaia,
-  title={GAIA: A Global, Multi-modal, Multi-scale Vision-Language Dataset for Remote Sensing Image Analysis},
-  author={Zavras, Angelos and Michail, Dimitrios and Zhu, Xiao Xiang and Demir, Beg{\"u}m and Papoutsis, Ioannis},
-  journal={arXiv preprint arXiv:2502.09598},
-  year={2025}
+@ARTICLE{11364541,
+  author={Zavras, Angelos and Michail, Dimitrios and Zhu, Xiao Xiang and Demir, Begüm and Papoutsis, Ioannis},
+  journal={IEEE Geoscience and Remote Sensing Magazine}, 
+  title={GAIA: A global, multimodal, multiscale vision–language dataset for remote sensing image analysis}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={2-30},
+  doi={10.1109/MGRS.2025.3650613}
 }
 ```
 
@@ -77,9 +81,6 @@ To download and reconstruct the GAIA dataset, follow these steps:
   ❗ Some users have reported that **img2dataset** appears to start correctly (with no error messages) but then hangs indefinitely without downloading any samples. We suggest users experiencing this issue to use an **img2dataset** Docker [image](https://hub.docker.com/r/marianna13/spark-img2dataset).
 
 ## Pre-trained weights
-- Coming soon
-
-## Annotation framework
 - Coming soon
 
 ## Contributions
