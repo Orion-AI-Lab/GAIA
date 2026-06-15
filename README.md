@@ -8,7 +8,7 @@ This repository contains the pre-trained model weights, associated code, and com
 
 If you use this work, please cite our paper:
 
-> A. Zavras, D. Michail, X. X. Zhu, B. Demir and I. Papoutsis, "GAIA: A global, multimodal, multiscale vision–language dataset for remote sensing image analysis," in IEEE Geoscience and Remote Sensing Magazine, doi: 10.1109/MGRS.2025.3650613.
+> A. Zavras, D. Michail, X. X. Zhu, B. Demir and I. Papoutsis, "GAIA: A global, multimodal, multiscale vision–language dataset for remote sensing image analysis," in IEEE Geoscience and Remote Sensing Magazine, vol. 14, no. 2, pp. 36-63, April 2026, doi: 10.1109/MGRS.2025.3650613.
 
 ```bibtex
 @ARTICLE{11364541,
@@ -16,9 +16,9 @@ If you use this work, please cite our paper:
   journal={IEEE Geoscience and Remote Sensing Magazine}, 
   title={GAIA: A global, multimodal, multiscale vision–language dataset for remote sensing image analysis}, 
   year={2026},
-  volume={},
-  number={},
-  pages={2-30},
+  volume={14},
+  number={2},
+  pages={36-63},
   doi={10.1109/MGRS.2025.3650613}
 }
 ```
